@@ -1,0 +1,54 @@
+/* Contenedor */
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*Título*/
+h1{
+    text-align: center;
+}
+
+/*Configuración del tamaño del marcador*/
+.marker{
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+/* Marcador rojo */
+.red{
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);/*Sombra en el objeto*/
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+}
+
+/*Marcador verde*/
+.green{
+    box-shadow: 0 0 20px 0 #3B7E20CC;/*Sombra en el objeto*/
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+}
+
+/*Marcador azul*/
+.blue{
+    box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);/*Sombra*/
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+}
+
+/*Pluma*/
+.sleeve{
+    border-left: 10px double rgba(0, 0, 0, 0.75);    
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 110px;
+    height: 25px;
+}
+
+.cap{
+    width: 60px;
+    height: 25px;
+}
+
+.cap, .sleeve{
+    display: inline-block;
+}
